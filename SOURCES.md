@@ -13,7 +13,7 @@ World Bank: World Development Indicators (WDI), API source 2. Requested period: 
 | `FP.CPI.TOTL.ZG` | Inflation, consumer prices (annual %) | % | [CC BY-4.0 metadata](https://api.worldbank.org/v2/sources/2/series/FP.CPI.TOTL.ZG/metadata?format=json) |
 | `SP.URB.TOTL.IN.ZS` | Urban population (% of total population) | Percentage | [CC BY-4.0 metadata](https://api.worldbank.org/v2/sources/2/series/SP.URB.TOTL.IN.ZS/metadata?format=json) |
 
-Native Arabic labels and source definitions are retained from `/v2/ar/`. Some definitions returned by that endpoint are English, and some Arabic metadata lag the current English metadata. Bayanat does not silently describe those as verified official Arabic translations. No facts are independently audited against national source systems. The [raw manifest](https://huggingface.co/datasets/Bayanat-Labs/arabic-public-data-reasoning/resolve/v0.1.0/raw/manifest.json) supplies every exact request, retrieval time, status and SHA256. Mutable URLs alone do not reproduce the frozen release.
+Native Arabic labels and source definitions are retained from `/v2/ar/`. Some definitions returned by that endpoint are English, and some Arabic metadata lag the current English metadata. Bayanat does not silently describe those as verified official Arabic translations. No facts are independently audited against national source systems. The [raw manifest](https://huggingface.co/datasets/Bayanat-Labs/arabic-table-reasoning/resolve/v0.1.0/raw/manifest.json) supplies every exact request, retrieval time, status and SHA256. Mutable URLs alone do not reproduce the frozen release.
 
 ## Provider attributions
 

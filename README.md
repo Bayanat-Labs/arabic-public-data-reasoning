@@ -1,10 +1,12 @@
-# Arabic Public Data Reasoning — source v0.1.0
+# Arabic Public Data Reasoning — source v0.1.1
 
 Compile and score controlled Arabic numerical questions over a frozen snapshot of real World Bank World Development Indicators. The released dataset has **6,419 generated task families, 4,400 real observations, 4,141 visible tables, 22 economies and eight indicators**, with economy-disjoint splits. Questions and software gold use newly authored AI-assisted templates, with no human linguistic/statistical validation established.
 
-[Dataset v0.1.0](https://huggingface.co/datasets/Bayanat-Labs/arabic-public-data-reasoning/tree/v0.1.0) · [Explorer](https://huggingface.co/spaces/Bayanat-Labs/arabic-public-data-reasoning) · [Company release page](https://www.bayanatlabs.com/open/arabic-public-data-reasoning) · [Full dataset card](DATASET_CARD.md)
+[Dataset v0.1.0](https://huggingface.co/datasets/Bayanat-Labs/arabic-table-reasoning/tree/v0.1.0) · [Explorer](https://huggingface.co/spaces/Bayanat-Labs/arabic-table-reasoning) · [Company release page](https://www.bayanatlabs.com/open/arabic-public-data-reasoning) · [Full dataset card](DATASET_CARD.md)
 
 This source checkout contains code, tests, rights/citation documents and measured statistics. Real source rows, generated JSONL/Parquet, predictions and frozen rights-page evidence are on Hugging Face and are intentionally absent here. The full dataset card describes that download, not files already in this checkout.
+
+Source v0.1.1 updates the public dataset/explorer destination and reproduction links. The data snapshot remains v0.1.0; source observations, task records, answer programs, split rules and scorers are unchanged.
 
 ## Quickstart
 

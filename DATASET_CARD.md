@@ -55,7 +55,7 @@ configs:
 
 Use this dataset to test whether an Arabic system reads a recorded statistical value, compares the right years, distinguishes percentage points from percent change, joins GDP to population, or abstains when the visible data are missing or units cannot be added. Every question has a controlled English counterpart; the primary input is Arabic. This is an original task construction over a frozen source snapshot, rather than a translation of an existing QA benchmark.
 
-[Company release page](https://www.bayanatlabs.com/open/arabic-public-data-reasoning) · [Dataset](https://huggingface.co/datasets/Bayanat-Labs/arabic-public-data-reasoning) · [Versioned source](https://github.com/Bayanat-Labs/arabic-public-data-reasoning/tree/v0.1.0) · [Local sample explorer](explorer.html)
+[Company release page](https://www.bayanatlabs.com/open/arabic-public-data-reasoning) · [Dataset](https://huggingface.co/datasets/Bayanat-Labs/arabic-table-reasoning) · [Versioned source](https://github.com/Bayanat-Labs/arabic-public-data-reasoning/tree/v0.1.1) · [Local sample explorer](explorer.html)
 
 The **facts and native Arabic indicator/economy names come from World Development Indicators**. Bayanat assembled the source snapshot, selected and represented the cells, authored controlled Arabic/English question templates with AI assistance, and generated answers with software. Questions, gold answers, citation targets and table views are **machine-generated annotations**, with no native-speaker or statistician validation established. No source observations were invented. The 6,419 tasks reuse 4,328 of the 4,400 source cells; questions and views are correlated observations and must not be counted as independent real-world facts.
 
@@ -65,7 +65,7 @@ The **facts and native Arabic indicator/economy names come from World Developmen
 from datasets import load_dataset
 import json
 
-questions = load_dataset("Bayanat-Labs/arabic-public-data-reasoning", "questions", split="test")
+questions = load_dataset("Bayanat-Labs/arabic-table-reasoning", "questions", split="test", revision="v0.1.0")
 row = questions[0]
 model_visible = {"question_ar": row["question_ar"], "table": json.loads(row["context"])}
 # Pass only model_visible and the public answer contract to a model.
@@ -160,7 +160,7 @@ Related resources include [Arabic WikiTableQA](https://www.mdpi.com/2079-9292/14
   title = {Bayanat Arabic Public Data Reasoning},
   year = {2026},
   version = {0.1.0},
-  url = {https://huggingface.co/datasets/Bayanat-Labs/arabic-public-data-reasoning},
+  url = {https://huggingface.co/datasets/Bayanat-Labs/arabic-table-reasoning},
   note = {Controlled Arabic QA over real World Bank WDI observations; CC BY 4.0 with retained source terms}
 }
 ```

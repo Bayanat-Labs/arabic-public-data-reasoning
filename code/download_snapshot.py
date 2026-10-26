@@ -11,7 +11,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
-    snapshot_download(repo_id="Bayanat-Labs/arabic-public-data-reasoning", repo_type="dataset",
+    snapshot_download(repo_id="Bayanat-Labs/arabic-table-reasoning", repo_type="dataset",
                       revision="v0.1.0", allow_patterns=["raw/*"], local_dir=str(args.output), token=False)
     root = args.output / "raw"
     expected_manifest = "c51853183363290e56714582b5ac3d2bca382a7400b88e8c9b90369f7150c170"
