@@ -1,0 +1,7 @@
+# Attribution and change notice
+
+**The World Bank: World Development Indicators: source providers identified per series in [SOURCES.md](SOURCES.md) and [series.json](series.json).** Original source: https://data.worldbank.org/ ; individual data sources and metadata URLs are preserved. See https://data.worldbank.org/summary-terms-of-use and https://datacatalog.worldbank.org/public-licenses.
+
+World Bank and its listed data providers created/compiled the underlying source observations and native indicator/economy metadata. Bayanat Labs selected 22 economies and eight series, froze the requested 2000–2024 responses, assigned exact source-cell identifiers and economy splits, added explicit unit glosses, authored controlled Arabic and English question templates with AI assistance, calculated answers with software, and packaged source-linked contexts and annotations. Original source spellings and missing numeric values are preserved.
+
+These are adaptations and newly generated task annotations. Neither the World Bank nor a source provider has reviewed or endorsed them. No source logo or emblem is included. Follow the same World Bank/provider acknowledgment requirement when redistributing or facilitating access to these source data, and pass the acknowledgment requirement to downstream recipients. The source terms URL above may be used to meet the provider's stated attribution requirement. Cite the Bayanat release as well when referring to this task construction.

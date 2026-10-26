@@ -1,0 +1,28 @@
+{
+  "method": "SHA256 order of bayanat-public-data-v0.1:<ISO3>; first 16 train, next 3 validation, last 3 test",
+  "economies": {
+    "ARE": "train",
+    "COM": "train",
+    "MRT": "train",
+    "LBY": "train",
+    "SDN": "train",
+    "SYR": "train",
+    "QAT": "train",
+    "MAR": "train",
+    "YEM": "train",
+    "IRQ": "train",
+    "JOR": "train",
+    "BHR": "train",
+    "LBN": "train",
+    "OMN": "train",
+    "TUN": "train",
+    "PSE": "train",
+    "DJI": "validation",
+    "SAU": "validation",
+    "KWT": "validation",
+    "DZA": "test",
+    "SOM": "test",
+    "EGY": "test"
+  },
+  "second_highest_years": "test-only question-structure diagnostic, not included in the shared-operator score"
+}

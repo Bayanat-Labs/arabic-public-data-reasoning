@@ -1,0 +1,123 @@
+{
+  "version": "0.1.0",
+  "source": "World Bank WDI, source 2",
+  "source_snapshots": {
+    "SP.POP.TOTL": {
+      "sha256": "1a88240658b423f4a67574236b05c65a99171b7d1e0e05e82bad3bb08cbc4962",
+      "api_lastupdated": "2026-10-08",
+      "rows": 550
+    },
+    "NY.GDP.MKTP.CD": {
+      "sha256": "ef13e3f54018ca094c75bc56fe0ffbe09d6766232f2c82b22e4ae81f72f025a1",
+      "api_lastupdated": "2026-10-08",
+      "rows": 550
+    },
+    "NY.GDP.PCAP.CD": {
+      "sha256": "f973720f937bf91eabe28ac6dc1265211eac28826e4f9980df167559c6c1aae5",
+      "api_lastupdated": "2026-10-08",
+      "rows": 550
+    },
+    "NY.GDP.MKTP.KD.ZG": {
+      "sha256": "e62f3ef8ca6b540704c18055202a4f98839edea9175ea99b7a6b85fff60c626c",
+      "api_lastupdated": "2026-10-08",
+      "rows": 550
+    },
+    "SP.DYN.LE00.IN": {
+      "sha256": "a4ef5d972cd8c18876fbefdd251704d1cbd57862e3b8a41eaa06df88faf596fd",
+      "api_lastupdated": "2026-10-08",
+      "rows": 550
+    },
+    "EG.ELC.ACCS.ZS": {
+      "sha256": "9a4d0e527af9d203236e6cec0f8a8dfb61848cf8013f748cbbdbd981d00f3ac4",
+      "api_lastupdated": "2026-10-08",
+      "rows": 550
+    },
+    "FP.CPI.TOTL.ZG": {
+      "sha256": "0252439c4140638930c333756b442b1e60342f2df4325cd32f73fb4601f03d36",
+      "api_lastupdated": "2026-10-08",
+      "rows": 550
+    },
+    "SP.URB.TOTL.IN.ZS": {
+      "sha256": "fe5ae758bde3aa1f3b3a70d27ea97d1cfe5c7b587b06deced58973c7b526bdf7",
+      "api_lastupdated": "2026-10-08",
+      "rows": 550
+    }
+  },
+  "economies": 22,
+  "indicators": 8,
+  "years": [
+    2000,
+    2024
+  ],
+  "observations": 4400,
+  "nonnull_observations": 4300,
+  "missing_observations": 100,
+  "question_records": 6419,
+  "unique_task_families": 6419,
+  "unique_tables": 4141,
+  "operations": {
+    "greater_than": 1735,
+    "lookup": 893,
+    "gdp_per_capita_join": 542,
+    "minimum_years": 863,
+    "percentage_point_difference": 425,
+    "difference": 438,
+    "maximum_years": 863,
+    "relative_change": 438,
+    "incompatible_sum": 109,
+    "second_highest_years": 113
+  },
+  "answer_statuses": {
+    "ok": 6282,
+    "incompatible_units": 109,
+    "missing": 28
+  },
+  "per_split": {
+    "train": {
+      "economies": [
+        "ARE",
+        "BHR",
+        "COM",
+        "IRQ",
+        "JOR",
+        "LBN",
+        "LBY",
+        "MAR",
+        "MRT",
+        "OMN",
+        "PSE",
+        "QAT",
+        "SDN",
+        "SYR",
+        "TUN",
+        "YEM"
+      ],
+      "observations": 3200,
+      "questions": 4654,
+      "tables": 3073,
+      "structure_holdout_diagnostic": 0
+    },
+    "validation": {
+      "economies": [
+        "DJI",
+        "KWT",
+        "SAU"
+      ],
+      "observations": 600,
+      "questions": 832,
+      "tables": 538,
+      "structure_holdout_diagnostic": 0
+    },
+    "test": {
+      "economies": [
+        "DZA",
+        "EGY",
+        "SOM"
+      ],
+      "observations": 600,
+      "questions": 933,
+      "tables": 530,
+      "structure_holdout_diagnostic": 113
+    }
+  }
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the task dataset and credit World Bank WDI and each source provider."
+title: "Bayanat Arabic Public Data Reasoning"
+type: dataset
+version: 0.1.0
+date-released: 2026-10-26
+authors:
+  - name: Bayanat Labs
+url: "https://huggingface.co/datasets/Bayanat-Labs/arabic-public-data-reasoning"
+repository-code: "https://github.com/Bayanat-Labs/arabic-public-data-reasoning/tree/v0.1.0"
+license: CC-BY-4.0
+abstract: "Controlled Arabic and English numerical QA over real frozen World Bank WDI observations, with exact programs, visible source-cell evidence and economy-disjoint splits. World Bank source data retain mandatory additional terms."
